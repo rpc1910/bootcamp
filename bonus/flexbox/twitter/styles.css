@@ -14,6 +14,11 @@ input, button {
     outline: 0;
 }
 
+a {
+    color: #3bb9e3;
+    text-decoration: none;
+}
+
 .content {
     max-width: 1170px;
     margin: 0 auto;
@@ -24,7 +29,9 @@ input, button {
 header#main-header {
     height: 46px;
     background: #fff;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    position: relative;
+    z-index: 1;
 }
 
 header#main-header .content {
@@ -88,4 +95,284 @@ header#main-header div.side button {
     font-size: 14px;
     border: 0;
     border-radius: 16px;
+}
+
+div.banner {
+    height: 380px;
+    width: 100%;
+    background: #3bb9e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,0.4);
+}
+
+.bar {
+    height: 59px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.bar .content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 285px;
+}
+
+.bar ul {
+    display: flex;
+    list-style: none;
+}
+.bar ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    position: relative;
+}
+
+.bar ul li.active::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3bb9e3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bar ul li.active strong {
+    color: #3bb9e3;
+}
+
+.bar ul li span {
+    color: #667580;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bar ul li strong {
+    color: #667580;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bar .actions {
+    display: flex;
+    align-items: center;
+}
+
+.bar .actions button {
+    background: #fff;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: bold;
+    color: #3bb9e3;
+    font-size: 14px;
+    border: 0;
+    border-radius: 16px;
+    border: 1px solid #3bb9e3;
+    margin-right: 20px;
+}
+
+.wrapper-content {
+    display: flex;
+}
+
+.wrapper-content aside.profile {
+    width: 260px;
+    margin-top: -130px;
+}
+
+.wrapper-content aside.profile img.avatar {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+
+.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #53626c;
+}
+
+.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 15px;
+}
+
+.wrapper-content aside.profile ul.list {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.wrapper-content aside.profile ul.list li {
+    font-size: 14px;
+    color: #657786;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.wrapper-content aside.profile ul.list li img {
+    margin-right: 10px;
+}
+
+.wrapper-content aside.profile .widget {
+    margin-top: 20px;
+}
+
+.wrapper-content aside.profile .widget strong {
+    font-weight: normal;
+    color: #38b9e3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content aside.profile .widget strong img {
+    margin-right: 5px;
+}
+
+.wrapper-content aside.profile .followers ul,
+.wrapper-content aside.profile .images ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.wrapper-content aside.profile .followers ul li {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 5px 0;
+}
+
+.wrapper-content aside.profile .images ul li {
+    width: 83px;
+    height: 83px;
+    border-radius: 8px;
+    background: #ccc;
+    margin: 5px 0;
+}
+
+.wrapper-content section.timeline {
+    flex: 1;
+}
+
+.wrapper-content aside.widgets {
+    width: 290px;
+}
+
+.wrapper-content aside.widgets .widget {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.wrapper-content aside.widgets .widget .title {
+    display: flex;
+    align-items: baseline;
+}
+
+.wrapper-content aside.widgets .widget .title strong {
+    font-size: 18px;
+    color: #1f2226;
+}
+
+.wrapper-content aside.widgets .widget .title a {
+    font-size: 12px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.wrapper-content aside.widgets .widget .title a::before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper-content aside.widgets .follow ul {
+    list-style: none;
+}
+
+.wrapper-content aside.widgets .follow ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd6dd;
+}
+
+.wrapper-content aside.widgets .follow ul li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile .info strong {
+    font-size: 14px;
+    color: #1f2326;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile .info strong span {
+    color: #9a9a9a;
+    font-weight: normal;
+}
+
+.wrapper-content aside.widgets .follow ul li .profile .info button {
+    background: #fff;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: bold;
+    color: #3bb9e3;
+    font-size: 14px;
+    border: 0;
+    border-radius: 16px;
+    border: 1px solid #3bb9e3;
+    margin-top: 4px;
+}
+
+.wrapper-content aside.widgets .follow ul li > a {
+    color: #ccc;
+    font-size: 13px;
 }
