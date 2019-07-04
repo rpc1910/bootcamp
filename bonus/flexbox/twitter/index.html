@@ -1,150 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Twitter</title>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header id="main-header">
-        <div class="content">
-            <nav>
-                <ul>
-                    <li><img src="images/home.svg" alt="Home"> Home</li>
-                    <li><img src="images/notification.svg" alt="Notifications"> Notifications</li>
-                    <li><img src="images/message.svg" alt="Messages"> Messages</li>
-                </ul>
-            </nav>
-            <img src="images/logo.svg" alt="Logo Twitter">
-            <div class="side">
-                <input type="text" placeholder="Search on Twitter">
-                <img src="images/avatar.png" alt="">
-                <button>Tweet</button>
-            </div>
+      <div class="content">
+        <nav>
+          <ul>
+            <li><img src="images/home.svg" alt="Home" /> Home</li>
+            <li>
+              <img src="images/notification.svg" alt="Notifications" />
+              Notifications
+            </li>
+            <li><img src="images/message.svg" alt="Messages" /> Messages</li>
+          </ul>
+        </nav>
+        <img src="images/logo.svg" alt="Logo Twitter" />
+        <div class="side">
+          <input type="text" placeholder="Search on Twitter" />
+          <img src="images/avatar.png" alt="" />
+          <button>Tweet</button>
         </div>
+      </div>
     </header>
 
     <div class="banner">
-        <h1>Rodrigo Passos Twitter</h1>
+      <h1>Rodrigo Passos Twitter</h1>
     </div>
 
     <div class="bar">
-        <div class="content">
-            <ul>
-                <li class="active">
-                    <span>Tweets</span>
-                    <strong>12340</strong>
-                </li>
-                <li>
-                    <span>Followings</span>
-                    <strong>1234</strong>
-                </li>
-                <li>
-                    <span>Followers</span>
-                    <strong>10000</strong>
-                </li>
-                <li>
-                    <span>Favorites</span>
-                    <strong>10</strong>
-                </li>
-            </ul>
-            
-            <div class="actions">
-                <button>Follow</button>
-                <img src="images/more.svg" alt="">
-            </div>
+      <div class="content">
+        <ul>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>12340</strong>
+          </li>
+          <li>
+            <span>Followings</span>
+            <strong>1234</strong>
+          </li>
+          <li>
+            <span>Followers</span>
+            <strong>10000</strong>
+          </li>
+          <li>
+            <span>Favorites</span>
+            <strong>10</strong>
+          </li>
+        </ul>
+
+        <div class="actions">
+          <button>Follow</button>
+          <img src="images/more.svg" alt="" />
         </div>
+      </div>
     </div>
 
     <div class="wrapper-content content">
-        <aside class="profile">
-            <img src="images/avatar.png" class="avatar" alt="">
-            <h1>Rodrigo Passos</h1>
-            <span>@rpc_1910</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae id qui reiciendis perspiciatis ut vitae nihil optio. Ipsam, suscipit dolorem necessitatibus veritatis animi assumenda vel facilis sint nihil unde.</p>
-            <ul class="list">
-                <li><img src="images/place.svg" alt=""> São Paulo, Brasil</li>
-                <li><img src="images/url.svg" alt=""> <a href="">rodrigopassos.com.br</a></li>
-                <li><img src="images/joined.svg" alt=""> Joined, November 2010</li>
-                <li><img src="images/born.svg" alt=""> Born the 25 of November 1992</li>
-            </ul>
+      <aside class="profile">
+        <img src="images/avatar.png" class="avatar" alt="" />
+        <h1>Rodrigo Passos</h1>
+        <span>@rpc_1910</span>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          repudiandae id qui reiciendis perspiciatis ut vitae nihil optio.
+          Ipsam, suscipit dolorem necessitatibus veritatis animi assumenda vel
+          facilis sint nihil unde.
+        </p>
+        <ul class="list">
+          <li><img src="images/place.svg" alt="" /> São Paulo, Brasil</li>
+          <li>
+            <img src="images/url.svg" alt="" />
+            <a href="">rodrigopassos.com.br</a>
+          </li>
+          <li><img src="images/joined.svg" alt="" /> Joined, November 2010</li>
+          <li>
+            <img src="images/born.svg" alt="" /> Born the 25 of November 1992
+          </li>
+        </ul>
 
-            <div class="widget followers">
-                <strong><img src="images/followers.svg" alt=""> 73 followers that you know</strong>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+        <div class="widget followers">
+          <strong
+            ><img src="images/followers.svg" alt="" /> 73 followers that you
+            know</strong
+          >
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
 
-            <div class="widget images">
-                <strong><img src="images/images.svg" alt=""> 253 photos and videos</strong>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+        <div class="widget images">
+          <strong
+            ><img src="images/images.svg" alt="" /> 253 photos and
+            videos</strong
+          >
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </aside>
+      <section class="timeline">
+        <nav>
+          <a href="" class="active">Tweets</a>
+          <a href="">Tweets and replies</a>
+          <a href="">Medias</a>
+        </nav>
+
+        <ul class="tweets">
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
             </div>
-        </aside>
-        <section class="timeline"></section>
-        <aside class="widgets">
-            <div class="widget follow">
-                <div class="title">
-                    <strong>Who to follow</strong>
-                    <a href="">Refresh</a>
-                    <a href="">View all</a>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar.png" alt="" class="avatar" />
+            <div class="info">
+              <strong>Rodrigo Passos <span>@rpc_1910</span></strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                eveniet, dignissimos ipsum veniam perspiciatis qui sequi
+                praesentium perferendis veritatis atque similique dolorem,
+                architecto eius velit alias consequatur esse. Nihil, eos.
+              </p>
+              <div class="actions">
+                <a href="#"><img src="images/comments.svg" alt="" /> 3</a>
+                <a href="#"><img src="images/retweet.svg" alt="" /> 0</a>
+                <a href="#"><img src="images/like.svg" alt="" /> 10</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong>Who to follow</strong>
+            <a href="">Refresh</a>
+            <a href="">View all</a>
+          </div>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="" />
+                <div class="info">
+                  <strong>Space <span>@user</span></strong>
+                  <button>Follow</button>
                 </div>
-
-                <ul>
-                    <li>
-                        <div class="profile">
-                            <img src="images/avatar.png" alt="">
-                            <div class="info">
-                                <strong>Space <span>@user</span></strong>
-                                <button>Follow</button>
-                            </div>
-                        </div>
-                        <a href="">x</a>
-                    </li>
-                    <li>
-                        <div class="profile">
-                            <img src="images/avatar.png" alt="">
-                            <div class="info">
-                                <strong>Space <span>@user</span></strong>
-                                <button>Follow</button>
-                            </div>
-                        </div>
-                        <a href="">x</a>
-                    </li>
-                    <li>
-                        <div class="profile">
-                            <img src="images/avatar.png" alt="">
-                            <div class="info">
-                                <strong>Space <span>@user</span></strong>
-                                <button>Follow</button>
-                            </div>
-                        </div>
-                        <a href="">x</a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+              </div>
+              <a href="">x</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="" />
+                <div class="info">
+                  <strong>Space <span>@user</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="" />
+                <div class="info">
+                  <strong>Space <span>@user</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
     </div>
-
-
-</body>
+    <footer>
+      Desenvolvido por
+      <a href="https://www.rodrigopassos.com.br">Rodrigo Passos</a> - 2019
+    </footer>
+  </body>
 </html>
