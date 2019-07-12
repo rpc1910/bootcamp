@@ -6,7 +6,7 @@ export default {
     user: '790cdc3ed3235b',
     pass: '7c07715ef24418',
   },
-  proxy: 'http://rodrigo.cunha:hesoyam1_@10.0.16.62:3128',
+  proxy: '',
   default: {
     from: 'Equipe Gobarber <noreply@rodrigopassos.com.br>',
   },
