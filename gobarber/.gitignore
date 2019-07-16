@@ -1,2 +1,3 @@
 temp/uploads/*
 !temp/uploads/.gitkeep
+.env
