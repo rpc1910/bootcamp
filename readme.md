@@ -17,6 +17,7 @@ Disponível em: https://github.com/rpc1910/meetapp-bootcamp-rocketseat
 Conteúdo desenvolvido nos cursos bônus da Rocketseat
 
 - [Curso Flexbox](bonus/flexbox)
+- [Curso NextJS](bonus/nextjs)
 
 ## Lives
 
